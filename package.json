@@ -1,0 +1,21 @@
+{
+  "name": "romannumerals3",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "author": "Kim Henning <kim.henning@ygni.se>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.12.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "typescript": "^4.0.3"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest --config ./jest.config.js"
+  }
+}
